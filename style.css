@@ -1,0 +1,129 @@
+html {
+    flex-wrap: wrap;
+}
+body {
+    background-color: linear;
+
+}
+h1, h2, .p1 {
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 28px;
+}
+h3 {
+    font-size: 24px;
+}
+p {
+    font-size: 18px;
+}
+.icecream{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    gap: 25px;
+}
+.img{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+.order{
+    color: rgb(40, 9, 9);
+    background-color: navajowhite;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 10PX;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.order:hover{
+    transition-duration: 0.5s;
+    background-color: antiquewhite;
+}
+.icecream1, .icecream2, .icecream3, .icecream4 {
+    width: 25%; 
+    height: 250px; 
+    object-fit: cover;  
+}
+.submit {
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.submit:hover {
+    background-color: brown;
+    transition: 0.5s;
+}
+.contact-form {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.forms {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.follow {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.social-media-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    gap: 25px;
+    display: inline-block;
+    align-items: center;
+}
+
+.social-media-img img {
+    width: 40px; 
+    height: 40px;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+.social-media-img img:hover {
+    transform: scale(1.1); 
+}
+.price {
+    background-color: #F48FB1;
+}
+.item {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+}
+.description{
+    font-weight: lighter;
+}
